@@ -38,7 +38,7 @@ if __name__ == '__main__':
     # Select a file
     st.title('Translating documents from Images')
 
-    option = st.selectbox('Translating from Japanese into: ', ('English', 'Chinese', 'Spanish'))
+    option = st.selectbox('Translating from German into: ', ('English', 'Chinese', 'Spanish'))
 
     if st.checkbox('Select a file in current directory'):
         folder_path = '..'
